@@ -355,6 +355,18 @@ cdef class NewcapitalExchange(ExchangeBase):
 
                 if tracked_order.is_done:
                     if not tracked_order.is_failure:
+                        self.c_trigger_event(self.MARKET_ORDER_FILLED_EVENT_TAG,
+                                             OrderFilledEvent(
+                                                 self._current_timestamp,
+                                                 client_order_id,
+                                                 tracked_order.trading_pair,
+                                                 tracked_order.trade_type,
+                                                 order_type,
+                                                 Decimal(order_update["price"]),
+                                                 executed_amount_base,
+                                                 tracked_order.fee_paid
+                                             ))
+
                         if tracked_order.trade_type is TradeType.BUY:
                             self.logger().info(f"The market buy order {tracked_order.client_order_id} has completed "
                                                f"according to order status API.")
