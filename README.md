@@ -49,6 +49,7 @@ OKEx is reportedly being investigated by Chinese authorities and has stopped wit
 
 | logo | id | name | ver | doc| maintainer | status |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| <img src="https://avatars3.githubusercontent.com/u/46530980?s=200&v=4" alt="New Capital" width="90" /> | New Capital | [New Capital](https://new.capital/) | 1 | [API](https://docs.new.capital/) | [contact@new.capital](mailto:contact@new.capital) | ![GREEN](https://via.placeholder.com/15/f03c15/?text=+) |
 | <img src="https://i.ibb.co/1sPt940/Screen-Shot-2019-06-06-at-17-50-04.png" alt="Bamboo Relay" width="90" /> | bamboo_relay | [Bamboo Relay](https://bamboorelay.com/) | 3 | [API](https://sra.bamboorelay.com/) | [dex@bamboorelay.com](mailto:dex@bamboorelay.com) | ![RED](https://via.placeholder.com/15/f03c15/?text=+) |
 |<img src="assets/dolomite_logo.png" alt="Dolomite" width="90" />| dolomite | [Dolomite](https://dolomite.io/) | 1 | [API](https://docs.dolomite.io/) | [corey@dolomite.io](mailto:corey@dolomite.io) | ![RED](https://via.placeholder.com/15/f03c15/?text=+) |
 
